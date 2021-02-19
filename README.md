@@ -36,15 +36,15 @@ rails db:migrate
 
 Start the backend, then frontend server with the following commands in the respective directory:
 
-backend: 
+* Backend: 
 ```
 rails s
 ```
-frontend:
+* Frontend:
 ```
 lite-sever
 ```
-
+Provide necessary Strava credentials in feed.js.
 
 ## Code Example
 ```
