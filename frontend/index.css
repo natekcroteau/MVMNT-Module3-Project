@@ -1,0 +1,97 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgb(247, 247, 247);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.home-page {
+  align-content: center;
+  padding-top: 160px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  
+}
+
+.info-div {
+  width: 480px;
+  height: 674px;
+  padding-right: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -24px;
+  margin-left: -16px
+}
+
+h1 {
+  color: rgba(37, 37, 37, 0.651);
+  font-weight: 500;
+  font-size: 84px;
+  padding-left: 16px;
+  line-height: 0.85;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  padding-left: 16px;
+  margin-top: -8px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 0.85;
+  color: rgba(37, 37, 37, 0.651);
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-self: center;
+}
+
+.links {
+  width: 480px;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  color:rgb(253, 253, 253);
+  text-decoration: none;
+  background-color: rgb(107, 162, 73);
+  border: solid 1px rgb(240, 240, 240);
+  border-radius: 10px;
+  padding: 8px;
+  margin-top: 8px;
+}
+
+.links a:hover {
+  color:rgb(253, 253, 253);
+  text-decoration: none;
+  background-color: rgb(93, 141, 63);
+  border: solid 1px rgb(240, 240, 240);
+  border-radius: 10px;
+  padding: 8px;
+  margin-top: 8px;
+}
+
+.image-div {
+  border: solid 2px rgba(37, 37, 37, 0.274);
+  border-radius: 10px;
+  background-color: rgba(37, 37, 37, 0.5);
+  width: 888px;
+  height: 668px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+
+img {
+  width: 884px;
+  border-radius: 10px;
+}

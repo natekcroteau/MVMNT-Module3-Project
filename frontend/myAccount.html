@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <script defer src="myAccount.js"></script>
+      <link rel="stylesheet" href="myAccount.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Account</title>
+    </head>
+
+    <body>
+      <header class="header">
+        <h1 class="page-title">MVMNT Account</h1>
+        <div class="nav-link">
+          <div id="home-link">
+            <a href="index.html">Home</a>
+          </div>
+          <div id="acount-link">
+            <a href="feed.html">MVMNT</a>
+          </div>
+          <div>
+            <a href="myAccount.html" class='logout'>Log Out</a>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="login-section">
+          <h2>Log In</h2>
+          <form class="login-form" name="login-form">
+            <label for="login-username">Username</label>
+            <input type="text" name="username" id="login-username">
+            <label for="login-password">Password</label>
+            <input type="password" class="password" name="password" id="login-password">
+            <input class="button" type="submit" value="Log In">
+          </form>
+          <p class="login-message"></p>
+        </section>
+        <section class="signup-section">
+          <h2>Sign Up</h2>
+          <form class="signup-form" name="signup-form">
+            <label for="signup-username">Username</label>
+            <input type="text" class="username" name="username" id="signup-username">
+            <label for="signup-password">Password</label>
+            <input type="password" class="password" name="password" id="signup-password">
+            <input class="button" type="submit" value="Sign Up">
+          </form>
+          <p class="signup-message"></p>
+        </section>
+      </main>
+    </body>
+</html>
