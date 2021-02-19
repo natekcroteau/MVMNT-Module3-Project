@@ -25,7 +25,7 @@ MVMNT is a user-based web application to view and interract with movement/exerci
 ## Setup
 To utilize MVMNT, install locally using the following command:
 ```
-git clone git@github.com:natekcroteau/MVMNT.git
+git clone git@github.com:natekcroteau/MVMNT-Module3-Project.git
 ```
 
 Backend setup:
