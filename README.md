@@ -2,7 +2,7 @@
 > Appreciate Your Movement
 
 
-## General info
+## General Info
 MVMNT is a user-based web application to view and interract with movement/exercise data recorded and/or synced to the user's Strava account. OAuth setup is required to access user-specific Strava data, which will be developed in future updates. 
 
 ## Intro Video
